@@ -1,0 +1,93 @@
+.main{
+    /* background-color: brown; */
+    width: 90%;
+    text-align: center;
+    margin: 2rem auto;
+    position: relative;
+  }
+.search{
+    width: 100%;
+    /* margin-left:70%  */
+    display: flex;
+    justify-content: space-between;
+}
+.search-box {
+    /* text-align: right; */
+    width: 25%;
+    height: 30px;
+    border: 1px solid  rgb(26, 25, 25);
+    display: block;
+}
+
+.search-box input{
+    width: 90%;
+    font-size: 1.3rem;
+    border:  none;
+    padding: 2px 0 2px 10px;
+}
+
+.search-box span{
+    height: 100%;
+    width: 10%;
+    margin: 2px;
+    border-left: 1px solid rgb(26, 25, 25);
+}
+
+.search-box span img{
+    height: 21px;
+    width: 21px;
+    padding: 5px 0 0 5px;
+}
+
+/* main conten css */
+
+.table-title {
+    width: 100%;
+    height: 4rem;
+    background-color: grey;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.table-title p{
+    display: inline;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.fname{
+    margin-left: 10px;
+}
+.fname,.lname{
+    width: 15%;
+}
+.age{
+    width: 10%;
+}
+.email {
+    width: 25%;
+}
+.website{
+    width: 35%;
+}
+.sorting {
+    padding-bottom: 1rem;
+    /* border-bottom: 3px solid #b2d4d4; */
+    /* margin-bottom: 2rem; */
+  }
+  
+  .sorting button {
+    font: inherit;
+    color: teal;
+    border: 1px solid teal;
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+  }
+  
+  .sorting button:hover {
+    background-color: #c2fafa;
+  }

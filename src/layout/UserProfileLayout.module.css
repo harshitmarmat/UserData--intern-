@@ -1,0 +1,20 @@
+.header {
+    height: 5rem;
+    width: 100%;
+    background-color: teal;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header div img{
+    height: 30px;
+    width: 30px;
+    margin-top: 28px;
+}
+  
+.header div p{
+    display: inline;
+    color: white;
+    font-size: 1.8rem;
+    padding:3px;
+}
